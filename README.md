@@ -1,5 +1,8 @@
 # Orders
 
+npm install svo npm start
+
+
 það er villa í PUT request sem segir 405 
 sem segir 
 
