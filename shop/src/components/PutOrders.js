@@ -47,7 +47,7 @@ let it = {id,name,decscription,quantity,price}
         
         /*Búinn að prófa missmunandi hérna en ég held að serverinn taki ekki við PUT / POST */ 
         },
-        body:JSON.stringify({ products:[it]})}) /* búinn að gera bæði  { products:[it]} og { products:it} hvorugt virkar  */
+        body:JSON.stringify({ products:it})}) /* búinn að gera bæði  { products:[it]} og { products:it} hvorugt virkar  */
             .then(response => { response.json()
             .then((resp) => { console.warn(resp)
               window.location.reload(true);
